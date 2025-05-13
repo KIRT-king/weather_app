@@ -12,7 +12,7 @@ input.addEventListener('keydown', (event) => {
 });
 
 search.addEventListener('click', () => {
-    const APIKey = 'API_KEY' //Enter here your api key from openweather
+    const APIKey = 'API_KEY'; //Enter here your api key from openweather
     const city = document.querySelector('.search-box input').value;
 
     if (city == '')
